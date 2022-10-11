@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     ],
     ),
-    GradientBack()
+    GradientBack("Popular")
     ],
     ),
     )
