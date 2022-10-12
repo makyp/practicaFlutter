@@ -93,6 +93,10 @@ flutter:
     - assets/img/people1.jpg
     - assets/img/people2.png
     - assets/img/people3.png
+    - assets/img/Pueblo.jpg
+    - assets/img/Pueblo1.jpg
+    - assets/img/Pueblo2.jpg
+    - assets/img/Pueblo3.jpg
   fonts:
     - family: Lato
       fonts:

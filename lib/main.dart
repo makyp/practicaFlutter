@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'description_place.dart';
 import 'review_list.dart';
 import 'gradient_back.dart';
+import 'header_appbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -47,21 +48,21 @@ class _MyHomePageState extends State<MyHomePage> {
 
            primarySwatch: Colors.blue,
     ),
-    home: Scaffold(
-    //body: new DescriptionPlace("Bahamas", 4, descriptionDummy),
-    body: Stack(
-    children: <Widget>[
-    ListView(
-    children: <Widget>[
-    DescriptionPlace("Bahamas", 4, descriptionDummy),
-    ReviewList()
+          home: Scaffold(
+            //body: new DescriptionPlace("Bahamas", 4, descriptionDummy),
+            body: Stack(
+              children: <Widget>[
+                ListView(
+                  children: <Widget>[
+                    DescriptionPlace("Bahamas", 4, descriptionDummy),
+                    ReviewList()
 
-    ],
-    ),
-    GradientBack("Popular")
-    ],
-    ),
-    )
+                ],
+            ),
+            HeaderAppBar()
+          ],
+        ),
+       )
     );//MyHomePage(title: 'Flutter Demo Home Page'),
   }
 }
