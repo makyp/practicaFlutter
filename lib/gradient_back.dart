@@ -10,7 +10,7 @@ class GradientBack extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
-      height: 250.0,
+      height: 280.0, //Tamaño del Appbar
       decoration: BoxDecoration(
           gradient: LinearGradient(
                 colors: [
@@ -18,8 +18,8 @@ class GradientBack extends StatelessWidget {
                   Color(0xFF584CD1)
                 ],
               begin: FractionalOffset(0.2, 0.0),
-              end: FractionalOffset(1.0, 0.6),
-                stops: [0.0, 0.6],
+              end: FractionalOffset(1.0, 0.7),
+                stops: [0.0, 0.9],
                 tileMode: TileMode.clamp
 
           )
@@ -33,7 +33,7 @@ class GradientBack extends StatelessWidget {
           fontWeight: FontWeight.bold,
         ),
       ),
-      alignment: Alignment(-0.9,-0.6),
+      alignment: Alignment(-0.9,-0.55),
     );
   }
 
