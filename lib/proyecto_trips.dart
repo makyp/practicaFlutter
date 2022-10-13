@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'home_trip.dart';
 import 'search_trips.dart';
-import 'profile_trips.dart';
+import 'package:proyecto1/profile/profile_trips.dart';
 
 class ProyectoTrips extends StatefulWidget{
   @override
